@@ -2,7 +2,7 @@ $.fn.taxonAutocomplete = function () {
   'use strict';
 
   this.select2({
-      placeholder: Spree.translations.taxon_placeholder,
+      placeholder: Spree.t('taxon_placeholder'),
       multiple: true,
       initSelection: function (element, callback) {
         var ids = element.val(),

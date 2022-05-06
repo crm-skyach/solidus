@@ -25,7 +25,7 @@ Spree.ready(function() {
 
   $('#taxon_id').select2({
     dropdownCssClass: "taxon_select_box",
-    placeholder: Spree.translations.find_a_taxon,
+    placeholder: Spree.t('find_a_taxon'),
     ajax: {
       url: Spree.pathFor('api/taxons'),
       params: {

@@ -12,7 +12,7 @@
       searchOptions = {};
     }
     this.select2({
-      placeholder: Spree.translations.variant_placeholder,
+      placeholder: Spree.t('variant_placeholder'),
       minimumInputLength: 3,
       initSelection: function(element, callback) {
         Spree.ajax({
